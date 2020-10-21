@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+img {
+    width: 33%;
+}
+
+
+/*TABLET*/
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+    img {
+        width: 50%;
+    }
+}
+/*MÒBIL*/
+@media (max-width: 600px){
+    body {
+        background-color: yellow;
+    }
+    img {
+        width: 100%;
+    }
+}
+
